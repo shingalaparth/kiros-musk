@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { motion, useScroll, useTransform, useMotionValue, useSpring } from "framer-motion";
 
 // Import all bottle images
-import bottle1 from "../assets/product_transparent/transparent bottle.png";
+import bottle1 from "../assets/product_transparent/1.png";
 import bottle2 from "../assets/product_transparent/2.png";
 import bottle3 from "../assets/product_transparent/3.png";
 import bottle4 from "../assets/product_transparent/4.png";
