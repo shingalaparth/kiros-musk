@@ -14,8 +14,7 @@ const BEVERAGES = [
             "Chilled to Perfection, served ice-cold"
         ],
         description: "A robust chocolate experience achieved using quality cocoa powder. Creamy, smooth, and served ice-cold for the perfect indulgence.",
-        color: "#D2691E",
-        icon: "🍫"
+        color: "#D2691E"
     },
     {
         id: 2,
@@ -28,8 +27,7 @@ const BEVERAGES = [
             "Garnished with chocolate syrup"
         ],
         description: "Classic Indian cold coffee - a creamy, frothy shake made by blending instant coffee, sugar, milk, and ice. Pure refreshment.",
-        color: "#8B4513",
-        icon: "☕"
+        color: "#8B4513"
     }
 ];
 
