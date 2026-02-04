@@ -5,6 +5,7 @@ import Hero from './sections/hero'
 // Lazy load non-critical sections
 const Philosophy = lazy(() => import('./sections/Philosophy'))
 const Product = lazy(() => import('./sections/Product'))
+const Gallery = lazy(() => import('./sections/Gallery'))
 const Ingredients = lazy(() => import('./sections/Ingredients'))
 const VideoBreak = lazy(() => import('./sections/VideoBreak'))
 const Contact = lazy(() => import('./sections/Contact'))
@@ -27,6 +28,9 @@ function App() {
       </Suspense>
       <Suspense fallback={<SectionLoader />}>
         <Product />
+      </Suspense>
+      <Suspense fallback={<SectionLoader />}>
+        <Gallery />
       </Suspense>
       <Suspense fallback={<SectionLoader />}>
         <Ingredients />
